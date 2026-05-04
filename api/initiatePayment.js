@@ -12,6 +12,8 @@ export default async function handler(req, res) {
   const { studentName, studentRoll, amount, successUrl, failUrl, cancelUrl } =
     req.body;
 
+  const domain = "https://edupayfee.vercel.app";
+
   const params = new URLSearchParams({
     store_id: "test69f89690dadd7",
     store_passwd: "test69f89690dadd7@ssl",
@@ -19,7 +21,7 @@ export default async function handler(req, res) {
     currency: "BDT",
     tran_id: `${studentRoll}-${Date.now()}`,
 
-    success_url: `https://edupayfee.vercel.app/api/success`,
+    success_url: `${domain}/api/success`,
     fail_url: `${domain}/payment/fail`,
     cancel_url: `${domain}/payment/cancel`,
 
