@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     currency: "BDT",
     tran_id: `${studentRoll}-${Date.now()}`,
 
-    success_url: `${domain}/api/success`,
+    success_url: `https://edupayfee.vercel.app/api/success`,
     fail_url: `${domain}/payment/fail`,
     cancel_url: `${domain}/payment/cancel`,
 
