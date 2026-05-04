@@ -1,0 +1,35 @@
+{
+  "_readme": "Import this structure into Firestore manually or via Firebase Admin SDK.",
+  "_collection": "students",
+  "_note": "Each object key is the Document ID (Roll Number). Fields inside are the document fields.",
+
+  "820545": {
+    "name": "Rokon",
+    "dueAmount": 820545,
+    "status": "unpaid"
+  },
+
+  "820544": {
+    "name": "Tasnim Akter",
+    "dueAmount": 8750,
+    "status": "unpaid"
+  },
+
+  "820525": {
+    "name": "Mehedi Hasan",
+    "dueAmount": 15000,
+    "status": "paid"
+  },
+
+  "820519": {
+    "name": "Fariha Islam",
+    "dueAmount": 11200,
+    "status": "unpaid"
+  },
+
+  "820522": {
+    "name": "Ariful Islam",
+    "dueAmount": 9500,
+    "status": "unpaid"
+  }
+}
