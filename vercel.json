@@ -5,7 +5,15 @@
       "destination": "/api/$1"
     },
     {
-      "source": "/payment/(.*)",
+      "source": "/payment/success",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/payment/fail",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/payment/cancel",
       "destination": "/index.html"
     },
     {
