@@ -1,4 +1,4 @@
-const CLOUD_FUNCTION_URL = "http://localhost:3000/initiatePayment";
+const CLOUD_FUNCTION_URL = "https://edupayfee.vercel.app/initiatePayment";
 
 export async function initiatePayment({
   studentName,
